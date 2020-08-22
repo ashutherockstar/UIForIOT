@@ -1,0 +1,92 @@
+<div id="overlay1" >
+  <button onclick = "myFunction2()" class = "glyphicon glyphicon-off">OUT</button>
+  <div id="text" >
+    <img id="myImg" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="bulb">
+
+    <button style="color:blue;" type="button" onclick="document.getElementById('myImg').src='https://www.w3schools.com/js/pic_bulbon.gif'">Turn On</button>
+
+    <button style="color:blue;" type="button" onclick="document.getElementById('myImg').src='https://www.w3schools.com/js/pic_bulboff.gif'">Turn Off</button>
+  </div>
+</div>
+<div id="overlay2">
+  <button onclick = "myFunction3()" class = "glyphicon glyphicon-off">OUT</button>
+    <div id="text">
+<audio controls>
+  <source src="/audio/03 - Bad Boy - Saaho (2019).mp3" type="audio/mpeg">
+  
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+   
+    
+    </div>
+</div>
+
+
+  
+
+<div id="overlay" >
+  <button onclick = "myFunction1()" class = "glyphicon glyphicon-off">OUT</button>
+    <div id="text" >
+      <div class="circle">
+      <div class="sector1"></div>
+      <div class="sector2"></div>
+      <div class="round-middle"></div>
+    </div>
+    <div class="btn_wrap">
+      <button class="btn" data-speed="0ms">0</button>
+      <button class="btn" data-speed="2100ms">1</button>
+      <button class="btn" data-speed="1400ms">2</button>
+      <button class="btn" data-speed="700ms">3</button>
+    </div>
+  </div>
+</div>
+
+
+        <div class="text6">
+         <h1>Welcome <%= @user.name %></h1>
+        </div>
+        <div class = "text7">
+        <button onclick = "myFunction()" class = "glyphicon glyphicon-off">Power</button>
+        
+        <div id="index2">
+        <h1>Add Your Devices</h1>
+  <div class = "ashu">
+
+  <div class="btn-group">
+    <button   type="button"  data-toggle="dropdown">LIGHT <span class="caret"></span></button>
+     <ul class="dropdown-menu" role="menu" >
+      <li> <button  type= "button" onclick="on1()">LIVING ROOM</a></li>
+      <li> <button  type= "button" onclick="on1()">HALL</a></li>
+      <li> <button  type= "button" onclick="on1()">KITCHEN</a></li> 
+  </div>
+  <div class="btn-group">
+    <button   type="button"  data-toggle="dropdown">FAN<span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" >
+        <li class="dropdown-submenu" role="menu">CEILING FAN <span class="caret"></span>
+              <ul class="dropdown-submenu" >
+                 <li> <button  type= "button" onclick="on()">LIVING ROOM</a></li>
+                 <li> <button  type= "button" onclick="on()">HALL</a></li>
+              </ul>
+        </li>
+        <li class="dropdown-submenu" role="menu">TABLE FAN <span class="caret"></span>   
+              <ul class="dropdown-submenu">
+                <li> <button  type= "button" onclick="on()">LIVING ROOM</a></li>
+                <li> <button  type= "button" onclick="on()">HALL</a></li>
+              </ul>
+        </li>
+    </ul>
+  </div>
+
+  <div class="btn-group">
+    <button   type="button"  data-toggle="dropdown">MUSIC SYSTEM<span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" >
+      <li> <button  type= "button" onclick="on2()">LIVING ROOM</a></li>
+      <li> <button  type= "button" onclick="on2()">HALL</a></li>
+    </ul>
+  </div>
+</div>
+</div>
+</div>
+        
+

@@ -1,0 +1,53 @@
+
+
+
+  
+<div class="text2">
+<h1>Register Here:</h1>
+<%= form_tag '/show' do %>
+<table>
+
+                <tr>
+               <td><%= label_tag :name   %></td>
+                <td><%= text_field_tag :name %></td>
+                </tr>
+        
+        
+                <tr> 
+                <td><%= label_tag :age %></td>
+                <td><%= number_field_tag :age %></td>
+                </tr>
+        
+                
+                <tr>             
+               <td><%= label_tag :address %></td>
+                <td><%= text_field_tag :address %></td>
+                </tr> 
+
+                <tr>             
+               <td><%= label_tag :email %></td>
+                <td><%= email_field_tag :email %></td>
+                </tr>
+
+                <tr>             
+               <td><%= label_tag :password %></td>
+                <td><%= password_field_tag :password %></td>
+                </tr>     
+                <tr>
+                <td>
+                <%= submit_tag "submit" %>
+                </td>
+                </tr>
+        
+        
+
+</table>
+<% end %>
+
+</div>
+ 
+  
+
+  
+        
+ 

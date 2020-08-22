@@ -1,0 +1,29 @@
+<div class = "text2" >
+
+    <h1 style = "text-align : center; font-size : 4vw ">Log in</h1>
+    <% if flash[:alert]%>
+            <p id='notice'><%= flash[:alert]%></p>
+    <%end%>
+    <div class = 'text5'>
+
+        <%= form_tag 'users/index1' do  %>
+        <table>
+        <tr>
+        <td><%= label_tag :email %></td>
+        <td><%= text_field_tag   :name or :email  %></td>
+       
+        </tr>
+        <tr>
+        <td><%= label_tag :password %></td>
+        <td><%= password_field_tag :password  %></td>
+        </tr>
+        <tr>
+        <td><%= submit_tag "Log in"  %></td>
+        </tr>
+
+     
+        </table>
+     
+  <% end %>
+  </div>
+</div>

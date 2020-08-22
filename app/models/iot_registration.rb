@@ -1,0 +1,2 @@
+class IotRegistration < ApplicationRecord
+end
